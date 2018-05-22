@@ -11,6 +11,7 @@
         <module>../xz-common</module>
         <module>../xz-manager</module>
         <module>../xz-web</module>
+        <module>../xz-core</module>
     </modules>
     <packaging>pom</packaging>
     <!--版本号-->
