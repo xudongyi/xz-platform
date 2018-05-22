@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xz-common" />
+        <module name="xz-manager-dao" />
+        <module name="xz-manager-entity" />
+        <module name="xz-manager-interface" />
+        <module name="xz-manager-service" />
+        <module name="xz-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="xz-common" target="1.8" />
+      <module name="xz-manager" target="1.8" />
+      <module name="xz-manager-dao" target="1.8" />
+      <module name="xz-manager-entity" target="1.8" />
+      <module name="xz-manager-interface" target="1.8" />
+      <module name="xz-manager-service" target="1.8" />
+      <module name="xz-manager-service (2)" target="1.8" />
+      <module name="xz-parent" target="1.8" />
+      <module name="xz-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

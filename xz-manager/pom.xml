@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!--功能：服务层工程、聚合工程、pom工程-->
+    <!--继承parent工程-->
+    <parent>
+        <artifactId>xz-parent</artifactId>
+        <groupId>com.xz</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../xz-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>xz-manager</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>xz-manager-dao</module>
+        <module>xz-manager-entity</module>
+        <module>xz-manager-interface</module>
+        <module>xz-manager-service</module>
+    </modules>
+    <dependencies>
+        <!--工程之间的依赖 manager依赖common-->
+        <dependency>
+            <artifactId>xz-common</artifactId>
+            <groupId>com.xz</groupId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <configuration>
+                    <path>/</path>
+                    <port>8091</port>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

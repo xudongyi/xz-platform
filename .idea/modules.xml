@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/xz-common/xz-common.iml" filepath="$PROJECT_DIR$/xz-common/xz-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-manager/xz-manager.iml" filepath="$PROJECT_DIR$/xz-manager/xz-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-manager/xz-manager-dao/xz-manager-dao.iml" filepath="$PROJECT_DIR$/xz-manager/xz-manager-dao/xz-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-manager/xz-manager-entity/xz-manager-entity.iml" filepath="$PROJECT_DIR$/xz-manager/xz-manager-entity/xz-manager-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-manager/xz-manager-interface/xz-manager-interface.iml" filepath="$PROJECT_DIR$/xz-manager/xz-manager-interface/xz-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-manager/xz-manager-service/xz-manager-service.iml" filepath="$PROJECT_DIR$/xz-manager/xz-manager-service/xz-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-parent/xz-parent.iml" filepath="$PROJECT_DIR$/xz-parent/xz-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xz-web/xz-web.iml" filepath="$PROJECT_DIR$/xz-web/xz-web.iml" />
+    </modules>
+  </component>
+</project>
