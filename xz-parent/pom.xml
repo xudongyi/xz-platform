@@ -12,6 +12,8 @@
         <module>../xz-manager</module>
         <module>../xz-web</module>
         <module>../xz-core</module>
+        <module>../xz-authorization</module>
+        <module>../xz-beetl-spring</module>
     </modules>
     <packaging>pom</packaging>
     <!--版本号-->
